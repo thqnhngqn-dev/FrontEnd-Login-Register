@@ -1,0 +1,126 @@
+.container{
+	background-color:#fff;
+	color: #000;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 20px;
+	padding: 0px 30px 16px 30px;
+	border-style:solid;
+	border-width:1px;
+	border-color:HideSelection;
+}
+.avatarContainer{
+ 	display: flex;
+ 	margin-top:16px;
+ 	margin-bottom:16px;   
+}
+.content-container{
+ 	margin-top:10px;
+ 	margin-bottom:10px;	
+}
+.avatar{
+ 	width: 100px;
+ 	height: 100px;
+ 	border-radius:100px;
+ 	border-style: solid;
+ 	border-width: 1px;
+ 	border-color: HideSelection;
+}
+.field-container{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+	flex-grow:1;
+	flex-basis: 150px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.with-left-Margin{
+	margin-left:10px;
+}
+.with-bottom-margin{
+	margin-bottom:10px;
+}
+.spacebetweenalign{
+	justify-content: space-between;
+}
+.field-header{
+ 	display:flex;
+	justify-content: space-between;
+}
+.field-input{
+	display:inline-block;
+	padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: HideSelection;
+    border-radius: 5px;
+    color: DisabledControl;
+}
+.button{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    color: gray;
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: HideSelection;
+    border-radius: 5px;
+    text-align: center;
+}
+.hint{
+	color: DisabledText;
+	font-size:7.5pt;
+}
+.centered{
+	align-self:center;
+}
+.button-width-70{
+	width: 70px;
+}
+.signin-button{
+	margin-left:0px;
+	border-width:0px;
+	width: 130px;
+}
+.button:hover {
+	background-color: DisabledText;
+    color: White;
+    border-color: DisabledControl;
+}
+.button-upload:hover {
+	background-color: Success;
+}
+.button-remove:hover {
+	background-color: Danger;
+}
+.separator{
+	width:100%;
+    height:1px;
+    background-color:HideSelection;
+}
+.bottom-bar{
+	text-align:right;
+}
+.bottom-bar-button{
+	background-color: Blue;
+	color: #fff;
+	width:100px;	
+}
+.action-bar{
+	margin-top:10px;
+	display:flex;
+	justify-content: space-between;
+}
+.text{
+	display:inline-block;
+	padding-bottom:10px;
+}
+.photo{
+    width: 32px;
+    height:32px;
+}

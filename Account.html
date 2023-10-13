@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="access/css/Account.css">
+</head>
+<body>
+    <div class="container" id="container">    
+        <div class="avatarContainer">       
+            <img src="employee" class="avatar">
+            <div id="uploadBtn" class="centered button button-upload button-width-70">Upload</div>
+            <div id="removeBtn" class="centered button button-remove button-width-70">Remove</div>
+        </div>
+        <div class="separator"></div>
+        <div class="avatarContainer spacebetweenalign">
+            <div class="field-container">
+                <div class="field-header">
+                    <b>Display name</b><b class="hint">Visible to other members</b>
+                </div>
+                <input name="textEditDisplayName" class="field-input"/>        	
+            </div>
+            <div class="field-container with-left-Margin">
+                <div class="field-header">
+                    <b>Full name</b><b class="hint">Not visible to other members</b>
+                </div>
+                <input name="textEditFullName" class="field-input"/>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="avatarContainer">
+            <div class="field-container">
+                <div class="field-header">
+                    <b>Email address</b><b class="hint">To log in and receive notifications</b>
+                </div>
+                <input name="textEditEmail" class="field-input"/>
+            </div>
+            <div class="field-container with-left-Margin">
+                <div class="field-header">
+                    <b>Phone number</b><b class="hint">To receive notifications</b>
+                </div>
+                <input name="textEditPhone" class="field-input"/>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="content-container">
+            <div>
+                <h3>Linked Accounts</h3><span class="hint"> We use this to let you sign in and populate your profile information</span>
+                <div class="action-bar">
+                    <div id="signInBtn" class="centered button signin-button"><img id="signInBtn" class="photo" src="signin"><div id="signInBtn" class="text">Sign in with Google</div></div>
+                    <div id="connectBtn" class="centered button button-width-70">Connect</div>
+                   </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="content-container">
+            <div class="action-bar">
+                <div>
+                    <h3>Delete Account</h3><span class="hint">You will lose all data if you delete your account</span>
+                </div>
+                <div id="deleteBtn" class="centered button button-remove signin-button"><b>Delete account...</b></div>
+            </div>		
+        </div>
+        <div class="separator with-bottom-margin"></div>
+        <div class="bottom-bar">
+            <div id="saveBtn" class="centered button bottom-bar-button">Save Changes</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,6 +1,6 @@
 var Connection = require('tedious').Connection;
 var config = {
-    server: 'THQNHNGQN\\THQNHNGQN',  //update me
+    server: 'THQNHNGQN\THQNHNGQN',  //update me
     authentication: {
         type: 'default',
         options: {
@@ -18,7 +18,7 @@ var connection = new Connection(config);
 connection.on('connect',
     function (err) {
         if(err){
-            console.log("Kết nối máy chủ thất bại{0}", err);
+            console.log("Kết nối máy chủ thất bại", err);
         }else{
             console.log("Kết nối thành công");
         }
