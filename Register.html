@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="access/css/Login.css">
+    <script src="access/javascript/index.js"></script>
+</head>
+<body>
+    <div class='page theme'>
+        <div class='form'>
+            <div class='caption'>
+                <h2>Register</h2>
+            </div>
+            <div class='content'>
+                <div class='tab-bar'>
+                    <div class='button tab-button normal' id='myLogin' onclick="displayLogin()">
+                        <p>LOGIN</p>
+                    </div>
+                    <div class='button tab-button highlight'>
+                        <p>SIGN UP</p>
+                    </div>
+                </div>
+                <div class='default-avatar-container' hidden='HasPhoto'>
+                    <!-- <input class='default-avatar' name='pictureEdit'/> -->
+                    <img src="access/img/User.svg" alt="" style="height: 54px; width: 54px;">
+                    <a class='choose-photo' id='choose_Photo'>Choose a photo</a>
+                </div>
+                <div class='input-box'>
+                    <p>Email</p>
+                    <input class='input' name='emailEdit'/>
+                </div>
+                <div class='input-box'>
+                    <p>Password</p>
+                    <input class='input' name='passEdit' />
+                </div>
+                <div class='input-box'>
+                    <p>Confirm</p>
+                    <input class='input' name='cPassEdit' />
+                </div>
+                <div class='check-container'>
+                    <input class='check-box' name='checkEdit' type="checkbox"/>
+                    <div class="check-box-p" style="display: flex;">
+                        <p>I agree to the </p><a class='link' style="margin-left: 5px;"> terms of service</a>
+                    </div>
+                </div>
+                <div class='button login-button' id="btnRegister">
+                    <p>Sign Up</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
